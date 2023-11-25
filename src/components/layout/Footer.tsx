@@ -17,26 +17,26 @@ const Footer: React.FC = () => {
       <div className={classes["footer-top-row"]}>
         <div className={classes["contact"]}>
           <Image src={phoneIcon} alt="Phone icon" />
-          <p>(509)-555-2983</p>
+          <p>(509)-555-5672</p>
         </div>
         <div className={classes["contact"]}>
           <Image src={emailIcon} alt="Phone icon" />
-          <p>tieton.construction@gmail.com</p>
+          <p>rojosmexicanrestaurant@gmail.com</p>
         </div>
         <div className={classes["contact"]}>
           <Image src={addressIcon} alt="Phone icon" />
-          <p>1900 Meadow Lark Ave</p>
-          <p> Seattle WA, 98702</p>
+          <p>3498 Toro Drive</p>
+          <p> Wenatchee WA, 98504</p>
         </div>
         <div className={classes["contact"]}>
           <Image src={hoursIcon} alt="Phone icon" />
-          <p>Monday - Friday</p>
-          <p> 7:30AM - 5:30PM</p>
+          <p>Monday - Saturday</p>
+          <p> 10:00AM - 10:30PM</p>
         </div>
       </div>
       <div className={classes["footer-bottom-row"]}>
         <div className={classes["footer-text"]}>
-          <p>&copy; 2023 Tieton Construction All Right Reserved</p>
+          <p>&copy; 2023 Rojo's Mexican Restaurant All Right Reserved</p>
           <p>Website by Brock Dallman</p>
         </div>
 

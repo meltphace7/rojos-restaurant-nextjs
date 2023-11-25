@@ -2,7 +2,7 @@ import React, {useEffect, useState} from "react";
 import classes from "./FeatureOverlay.module.css";
 import Link from "next/link";
 import Image from "next/image";
-import modernOne from "../../../public/imgs/modern-1.jpg";
+import modernOne from "../../../public/imgs/platter.jpg";
 import { useInView } from "react-intersection-observer";
 
 const FeatureOverlay: React.FC = () => {

@@ -1,7 +1,7 @@
 import React, {useState, useEffect} from "react";
 import classes from "./FeatureBoxTwo.module.css";
 import Image from "next/image";
-import modern from "../../../public/imgs/modern.jpg";
+import modern from "../../../public/imgs/burrito-1.jpg";
 import Link from "next/link";
 import { useInView } from "react-intersection-observer";
 

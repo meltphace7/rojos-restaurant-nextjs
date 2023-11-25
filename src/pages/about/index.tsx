@@ -3,14 +3,14 @@ import Head from "next/head";
 import Image from "next/image";
 import classes from "@/styles/About.module.css";
 import Hero from '../../components/about/Hero';
-import team from '../../../public/imgs/team-members.jpg';
+import team from '../../../public/imgs/burrito-1.jpg';
 
 const AboutPage: React.FC = () => {
   return (
     <Fragment>
       <Head>
-        <title>About | Tieton Construction</title>
-        <meta name="description" content="About page for Tieton Construction" />
+        <title>About | Rojo's Mexican Cuisine</title>
+        <meta name="description" content="About page for Rojo's Cantina" />
       </Head>
       <div className={classes["about-page"]}>
         <Hero />

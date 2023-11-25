@@ -22,68 +22,11 @@ const Navigation: React.FC = () => {
         </li>
         <li className={classes.dropdown}>
           <Link
-            href="/services"
-            className={pathname === "/services" ? classes.active : ""}
+            href="/menu"
+            className={pathname === "/menu" ? classes.active : ""}
           >
-            Services
+            Menu
           </Link>
-          <Image src={downIcon} alt="down icon" />
-          <ul className={classes["dropdown-menu"]}>
-            <li>
-              <Link
-                href="/services"
-                className={
-                  pathname === "/services" ? classes.active : ""
-                }
-              >
-                All Services
-              </Link>
-            </li>
-            <li>
-              <Link
-                href="/services/commercial-construction"
-                className={
-                  pathname === "/services/commercial-construction"
-                    ? classes.active
-                    : ""
-                }
-              >
-                Commercial
-              </Link>
-            </li>
-            <li>
-              <Link
-                href="/services/residential-construction"
-                className={
-                  pathname === "/services/residential-construction"
-                    ? classes.active
-                    : ""
-                }
-              >
-                Residential
-              </Link>
-            </li>
-            <li>
-              <Link
-                href="/services/additions"
-                className={
-                  pathname === "/services/additions" ? classes.active : ""
-                }
-              >
-                Additions
-              </Link>
-            </li>
-            <li>
-              <Link
-                href="/services/remodeling"
-                className={
-                  pathname === "/services/remodeling" ? classes.active : ""
-                }
-              >
-                Remodeling
-              </Link>
-            </li>
-          </ul>
         </li>
         <li>
           <Link
@@ -93,20 +36,13 @@ const Navigation: React.FC = () => {
             About
           </Link>
         </li>
+    
         <li>
           <Link
-            href="/portfolio"
-            className={pathname === "/portfolio" ? classes.active : ""}
+            href="/catering"
+            className={pathname === "/catering" ? classes.active : ""}
           >
-            Portfolio
-          </Link>
-        </li>
-        <li>
-          <Link
-            href="/faq"
-            className={pathname === "/faq" ? classes.active : ""}
-          >
-            FAQ
+            Catering
           </Link>
         </li>
         <li>

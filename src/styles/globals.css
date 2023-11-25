@@ -1,10 +1,10 @@
 :root {
-  --color-primary: #f0ce0b;
+  --color-primary: #e10a0a;
   --color-bg-dark: #1b1918;
 
   --color-bg-light: #efede7;
 
-  --color-bg-nav: rgba(0, 0, 0, 0.249);
+  --color-bg-nav: rgba(23, 1, 1, 0.249);
   --color-bg-footer: #1b1918;
 
   --color-text-light: #fff;
@@ -18,33 +18,75 @@
 }
 
 @font-face {
-  font-family: "Clash-Display";
-  src:url('../../public/fonts/ClashDisplay-Regular.woff2');
+  font-family: "Paquito";
+  src: url("../../public/fonts/Paquito-Regular.woff2") format("woff");
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
-  font-family: "Clash-Display";
-  src: url("../../public/fonts/ClashDisplay-Bold.woff2") format("woff");
-  font-weight: bold;
+  font-family: "Paquito";
+  src: url("../../public/fonts/Paquito-Medium.woff2") format("woff");
+  font-weight: 500;
   font-style: normal;
 }
 
 @font-face {
-  font-family: "Clash-Display";
-  src: url("../../public/fonts/ClashDisplay-Extralight.woff2") format("woff");
+  font-family: "Paquito";
+  src:url('../../public/fonts/Paquito-Bold.woff2');
+  font-weight: bold;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: "Telma";
+  src: url("../../public/fonts/Telma-Regular.woff2") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Telma";
+  src: url("../../public/fonts/Telma-Light.woff2") format("woff");
   font-weight: 100;
   font-style: normal;
 }
 
 @font-face {
-  font-family: "Clash-Display";
-  src: url("../../public/fonts/ClashDisplay-Semibold.woff2") format("woff");
-  font-weight: 500;
+  font-family: "Telma";
+  src:url('../../public/fonts/Telma-Bold.woff2');
+  font-weight: bold;
   font-style: normal;
 }
 
+@font-face {
+  font-family: "Recia";
+  src: url("../../public/fonts//Recia-Regular.woff2") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Recia";
+  src: url("../../public/fonts/Recia-Light.woff2") format("woff");
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Recia";
+  src:url('../../public/fonts/Recia-Bold.woff2');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Zina";
+  src:url('../../public/fonts/Zina-Regular.woff2');
+  font-weight: normal;
+  font-style: normal;
+}
 /*  ___ CUSTOM SCROLLBAR  _____*/
 /* ::-webkit-scrollbar {
   width: 1rem;
@@ -76,7 +118,7 @@ html {
 
 body {
   position: relative;
-  font-family: "Clash-Display", sans-serif;
+  font-family: "Recia", sans-serif;
   background-color: var(#fff);
 }
 
@@ -93,7 +135,7 @@ body {
 }
 
 p, li, a, label, div, label, textarea, button {
-   font-family: "Clash-Display", sans-serif;
+   font-family: "Recia", sans-serif;
   font-size: 1.6rem;
 }
 
@@ -121,12 +163,11 @@ a {
 }
 
 a:hover {
-   font-family: "Clash-Display", sans-serif;
   color: var(--color-primary);
 }
 
 button {
-   font-family: "Clash-Display", sans-serif;
+  font-family: "Recia", sans-serif;
   border: unset;
   cursor: pointer;
   background-color: unset;
@@ -138,19 +179,14 @@ button {
   align-items: center;
   justify-content: center;
   padding: 2rem 4rem;
-  border-radius: 2px;
+  border-radius: 1rem;
   font-size: 2rem;
-  color: var(--color-text-light);
-  
-  border: 1px solid var(--color-primary);
+  color: #fff;
+  background-color: var(--color-primary);
   transition: all 250ms ease-in;
-  /* box-shadow: var(--box-shadow);
--webkit-box-shadow: var(--box-shadow);
--moz-box-shadow: var(--box-shadow); */
 }
 
 .button:hover {
-  color: #000;
-  background-color: var(--color-primary);
-
+  color: #fff;
+  background-color: #930505;
 }

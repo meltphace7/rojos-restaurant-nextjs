@@ -23,7 +23,10 @@ const ContactPage: React.FC = () => {
     <Fragment>
       <Head>
         <title>Contact | Tieton Construction</title>
-        <meta name="description" content="Contact page for Tieton Construction" />
+        <meta
+          name="description"
+          content="Contact page for Tieton Construction"
+        />
       </Head>
       <div className={classes["contact-page"]}>
         <header
@@ -40,14 +43,14 @@ const ContactPage: React.FC = () => {
               <Image src={hoursIcon} alt="hours icon" />
               <h1>Hours</h1>
               <div className={classes.accent}></div>
-              <h2>Monday - Friday</h2>
-              <h2>7:30AM - 5:30PM</h2>
+              <h2>Monday - Saturday</h2>
+              <h2>10:00AM - 10:30PM</h2>
             </div>
             <div className={classes["contact-container"]}>
               <Image src={phoneIcon} alt="phone icon" />
               <h1>Phone</h1>
               <div className={classes.accent}></div>
-              <h2>(509)-555-2983</h2>
+              <h2>(509)-555-5672</h2>
             </div>
           </div>
 
@@ -56,14 +59,14 @@ const ContactPage: React.FC = () => {
               <Image src={emailIcon} alt="email icon" />
               <h1>Email</h1>
               <div className={classes.accent}></div>
-              <h2>tieton.construction@gmail.com</h2>
+              <h2>rojosmexicanrestaurant@gmail.com</h2>
             </div>
             <div className={classes["contact-container"]}>
               <Image src={addressIcon} alt="address icon" />
               <h1>Address</h1>
               <div className={classes.accent}></div>
-              <h2>1900 Meadow Lark Ave</h2>
-              <h2>Seattle WA, 98702</h2>
+              <h2>3498 Toro Drive</h2>
+              <h2>Wenatchee WA, 98504</h2>
             </div>
           </div>
         </section>

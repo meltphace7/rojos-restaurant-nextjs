@@ -2,7 +2,7 @@ import React, {useState, useEffect } from 'react'
 import classes from './SplitFeatureBox.module.css';
 import Link from 'next/link';
 import Image from 'next/image';
-import seattle from '../../../public/imgs/seattle.jpg';
+import seattle from '../../../public/imgs/tacos-1.jpg';
 import { useInView } from "react-intersection-observer";
 
 const SplitFeatureBox: React.FC = () => {

@@ -11,7 +11,7 @@ import FeatureOverlay from "../components/home/FeatureOverlay";
 import { useInView } from "react-intersection-observer";
 //
 import Feature from "../components/home/Feature";
-import remodelImg from '../../public/imgs/remodel.jpg';
+import remodelImg from '../../public/imgs/tacos-4.jpg';
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -21,8 +21,8 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Tieton Construction</title>
-        <meta name="description" content="Tieton Construction homepage" />
+        <title>Rojo's Mexican Restaurant</title>
+        <meta name="description" content="Rojo's Mexican Restaurant Homepage" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>

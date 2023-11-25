@@ -6,7 +6,7 @@ const HeroVideo:React.FC = () => {
     return (
       <header className={classes["video-header"]}>
         <video
-          src={require("../../../public/videos/skyscraper(720p).mp4")}
+          src={require("../../../public/videos/tacos.mp4")}
           autoPlay
           muted
                 loop
@@ -16,9 +16,9 @@ const HeroVideo:React.FC = () => {
         <div className={classes["bg-video__overlay"]}>
           <div className={classes["hero-text"]}>
             <h1>
-              Build <span>Today</span>
+              ROJO'S MEXICAN RESTAURANT
             </h1>
-            <h2>The Future is Now</h2>
+            <h2>Es Tiempo para Fiesta!</h2>
             <Link href="/contact" className="button">
               Contact Us
             </Link>

@@ -42,6 +42,7 @@
 }
 
 .feature-box__text-container h1 {
+   font-family: "Paquito", sans-serif;
   margin-top: 2rem;
   font-size: 5vw;
   line-height: 4.5vw;
