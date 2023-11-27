@@ -16,7 +16,7 @@ const Hero: React.FC = () => {
   }, []);
 
   return (
-    <div
+    <header
       className={classes.hero}
       style={{ transform: `translateY(${offsetY * 0.5}px)` }}
     >
@@ -30,7 +30,7 @@ const Hero: React.FC = () => {
           Contact Us
         </Link>
       </div>
-    </div>
+    </header>
   );
 }
 

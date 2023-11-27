@@ -1,0 +1,52 @@
+.menu-item {
+    width: 30rem;
+    width: 100%;
+    height: 35rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.item-img__container {
+    width: 80%;
+    height: 15rem;
+    height: 50%;
+    overflow: hidden;
+}
+
+.item-img__container img  {
+     width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.item-text__container {
+    padding: .5rem;
+    width: 100%;
+    height: 20rem;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu-item h3 {
+    margin-bottom: 3rem;
+font-size: 2.6rem;
+font-family: "Paquito", sans-serif;
+}
+
+
+.description {
+    color: rgb(58, 58, 58);
+    font-style: italic;
+}
+
+.price {
+     margin-top: auto;
+     color: rgb(58, 58, 58);
+     font-weight: bold;
+    
+
+}

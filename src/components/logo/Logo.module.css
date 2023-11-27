@@ -23,3 +23,12 @@
   height: 4rem;
   width: auto;
 }
+
+@media (max-width: 50em) {
+  .logo {
+    margin: 1rem 2rem;
+  }
+
+}
+
+

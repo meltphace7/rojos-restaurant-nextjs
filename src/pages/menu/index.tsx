@@ -1,12 +1,28 @@
 import React, { Fragment, useState, useEffect } from "react";
 import Head from "next/head";
-import classes from "@/styles/Services.module.css";
+import classes from "@/styles/Menu.module.css";
 import Image from "next/image";
 import Link from "next/link";
-import commercial from "../../../public/imgs/tacos-2.jpg";
-import residential from "../../../public/imgs/tacos-3.jpg";
-import additions from "../../../public/imgs/burrito-1.jpg";
-import remodel from "../../../public/imgs/platter.jpg";
+import MenuItem from "../../components/menu/MenuItem";
+import nachos from "../../../public/imgs/nachos.jpg";
+import guac from "../../../public/imgs/guac-1.jpg";
+import salsa from "../../../public/imgs/salsa.jpg";
+
+import tacoOne from "../../../public/imgs/tacos-2.jpg";
+import tacoTwo from "../../../public/imgs/tacos-3.jpg";
+import tacoThree from "../../../public/imgs/tacos-4.jpg";
+
+import burritoOne from "../../../public/imgs/burrito-1.jpg";
+import burritoTwo from "../../../public/imgs/burrito-2.jpg";
+import burritoThree from "../../../public/imgs/burrito-3.jpg";
+
+import enchOne from "../../../public/imgs/enchiladas-1.jpg";
+import enchTwo from "../../../public/imgs/enchiladas-2.jpg";
+
+import fajitas from "../../../public/imgs/fajitas-2.jpg";
+
+
+
 
 const ServicesPage: React.FC = () => {
   // Parallax effect for Header
@@ -24,8 +40,11 @@ const ServicesPage: React.FC = () => {
   return (
     <Fragment>
       <Head>
-        <title>Services | Tieton Construction</title>
-        <meta name="description" content="Services page for Tieton Construction" />
+        <title>Menu | Rojo's Mexican Restaurant</title>
+        <meta
+          name="description"
+          content="Menu page for Rojo's Mexican Restaurant"
+        />
       </Head>
       <div className={classes["services-page"]}>
         <header
@@ -34,104 +53,125 @@ const ServicesPage: React.FC = () => {
         >
           <div className={classes["services-hero-overlay"]}>
             <div className={classes["hero-text"]}>
-              <h1>What We Do</h1>
+              <h1>Menu</h1>
               <h2>Quality Comes First</h2>
             </div>
           </div>
         </header>
-        <section className={classes["services-section"]}>
-          <div className={classes["services-blurb"]}>
-            <h1>Building On Purpose</h1>
-            <div className={classes.accent}></div>
-            <p>
-              Our comprehensive services cover the
-              spectrum of construction needs. From commercial construction that
-              establishes solid foundations for businesses to residential
-              construction, home additions, and remodels that transform living
-              spaces, our versatile team excels in every project. Committed to
-              excellence and quality, we bring expertise to each service,
-              ensuring the highest standards of craftsmanship. Whether it&apos;s
-              building the future of commercial spaces or enhancing the warmth
-              of homes, Tieton Construction stands as a trusted partner in
-              delivering unparalleled construction solutions.
-            </p>
-          </div>
-          <div className={classes["service"]}>
-            <div className={classes["service__img-container"]}>
-              <Image src={commercial} alt="new construction" />
-            </div>
-            <div className={classes["service__text-container"]}>
-              <h1>Commercial Construction</h1>
-              <div className={classes.accent}></div>
-              <p>
-                Our commercial construction service
-                guarantees efficiency. Our dedicated team consistently delivers
-                projects ahead of schedule and under budget, ensuring optimal
-                value for our clients.
-              </p>
-              <Link href="/services/commercial-construction" className="button">
-                Learn More
-              </Link>
-            </div>
-          </div>
 
-          <div className={`${classes["service"]} ${classes["service-alt"]}`}>
-            <div className={classes["service__img-container"]}>
-              <Image src={residential} alt="remodeling" />
-            </div>
-            <div className={classes["service__text-container"]}>
-              <h1>Residential Construction</h1>
-              <div className={classes.accent}></div>
-              <p>
-                We bring dreams to life with our residential
-                construction service. Crafting homes with timeless elegance, we
-                create more than houses; we build cherished homes, tailored to
-                reflect your unique vision.
-              </p>
-              <Link
-                href="/services/residential-construction"
-                className="button"
-              >
-                Learn More
-              </Link>
-            </div>
-          </div>
+        <section className={classes["menu-section"]}>
+          <div className={classes.menu}>
+            <h2>Appetizers</h2>
 
-          <div className={classes["service"]}>
-            <div className={classes["service__img-container"]}>
-              <Image src={additions} alt="new construction" />
-            </div>
-            <div className={classes["service__text-container"]}>
-              <h1>Additions</h1>
-              <div className={classes.accent}></div>
-              <p>
-                Tieton Construction&apos;s home additions service seamlessly
-                expands your living space. Whether a new deck or a wing, we
-                deliver top-notch quality, minimizing disruption to your
-                lifestyle for a stress-free enhancement.
-              </p>
-              <Link href="/services/additions" className="button">
-                Learn More
-              </Link>
-            </div>
-          </div>
+            <div className={classes["menu-grid"]}>
+              <div className={classes["menu-item"]}>
+                <MenuItem
+                  title="Chips and Salsa"
+                  description="House made chips and fresh pico de gallo."
+                  price={11}
+                  image={salsa}
+                />
+              </div>
 
-          <div className={`${classes["service"]} ${classes["service-alt"]}`}>
-            <div className={classes["service__img-container"]}>
-              <Image src={remodel} alt="new construction" />
+              <div className={classes["menu-item"]}>
+                <MenuItem
+                  title="Chips and Guac"
+                  description="House made tortilla chips and fresh made guacamole"
+                  price={10}
+                  image={guac}
+                />
+              </div>
+              <div className={classes["menu-item"]}>
+                <MenuItem
+                  title="Nachos"
+                  description="Delicous Nachos with cheese, seasoned beef, jalapenos guac and sour cream."
+                  price={10}
+                  image={nachos}
+                />
+              </div>
             </div>
-            <div className={classes["service__text-container"]}>
-              <h1>Remodeling</h1>
-              <div className={classes.accent}></div>
-              <p>
-                Elevate your living experience with Tieton Construction&apos;s
-                home remodeling service. Transform your space into a dream
-                sanctuary where functionality meets style, creating a harmonious
-                and personalized environment.
-              </p>
-              <Link href="/services/remodeling" className="button">
-                Learn More
-              </Link>
+
+            <h2>Entrées</h2>
+
+            <div className={classes["menu-grid"]}>
+              <div className={classes["menu-item"]}>
+                <MenuItem
+                  title="Street Tacos"
+                  description="Street tacos with your choice of meat."
+                  price={11}
+                  image={tacoOne}
+                />
+              </div>
+
+              <div className={classes["menu-item"]}>
+                <MenuItem
+                  title="Tacos Rojo"
+                  description="Marinated pork, cotija, quac and our signature Rojo sauce"
+                  price={13}
+                  image={tacoTwo}
+                />
+              </div>
+
+              <div className={classes["menu-item"]}>
+                <MenuItem
+                  title="Shrimp Tacos"
+                  description="Fresh shrimp, cotija and ceviche on a house made tortilla"
+                  price={12}
+                  image={tacoThree}
+                />
+              </div>
+              <div className={classes["menu-item"]}>
+                <MenuItem
+                  title="Burrito Rojo"
+                  description="Steak, chicken or carnitas with beans, rice, onions, cheese, sour cream, guac and our signature Rojo sauce."
+                  price={14}
+                  image={burritoOne}
+                />
+              </div>
+
+              <div className={classes["menu-item"]}>
+                <MenuItem
+                  title="Burrito Gigantico"
+                  description="This monster is the size of your head!  Feeds two people or one really fat one."
+                  price={17}
+                  image={burritoTwo}
+                />
+              </div>
+
+              <div className={classes["menu-item"]}>
+                <MenuItem
+                  title="Burrito Loco"
+                  description="Crazy flavorful burrito loaded with your choice of meat, sour cream, salsa, guac and french fries drenched in nacho cheese."
+                  price={10}
+                  image={burritoThree}
+                />
+              </div>
+              <div className={classes["menu-item"]}>
+                <MenuItem
+                  title="Mondo Enchiladas"
+                  description="Steak, chicken or carnitas with beans, rice, onions, cheese, sour cream, guac and our signature Rojo sauce."
+                  price={14}
+                  image={enchOne}
+                />
+              </div>
+
+              <div className={classes["menu-item"]}>
+                <MenuItem
+                  title="Enchiladas Rojo"
+                  description="Specialy enchiladas with marinated pork, rice, beans, salsa and house made sauce."
+                  price={17}
+                  image={enchTwo}
+                />
+              </div>
+
+              <div className={classes["menu-item"]}>
+                <MenuItem
+                  title="Fajitas"
+                  description="Your choice of carne asada, chicken or pork, with bell peppers, onions and mushrooms, served on a sizzling platter."
+                  price={13}
+                  image={fajitas}
+                />
+              </div>
             </div>
           </div>
         </section>

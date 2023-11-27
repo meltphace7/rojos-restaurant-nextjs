@@ -1,5 +1,4 @@
 import React from 'react'
-import Link from 'next/link'
 import classes from './HeroVideo.module.css'
 
 const HeroVideo:React.FC = () => {
@@ -16,12 +15,9 @@ const HeroVideo:React.FC = () => {
         <div className={classes["bg-video__overlay"]}>
           <div className={classes["hero-text"]}>
             <h1>
-              ROJO'S MEXICAN RESTAURANT
+              ROJO'S MEXICAN CUISINE
             </h1>
             <h2>Es Tiempo para Fiesta!</h2>
-            <Link href="/contact" className="button">
-              Contact Us
-            </Link>
           </div>
         </div>
       </header>

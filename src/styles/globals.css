@@ -1,8 +1,11 @@
 :root {
   --color-primary: #e10a0a;
+  --color-2: #ffda09;
+   --color-3: #02a51b;
   --color-bg-dark: #1b1918;
 
   --color-bg-light: #efede7;
+  --color-bg-med: #f0ddbb;
 
   --color-bg-nav: rgba(23, 1, 1, 0.249);
   --color-bg-footer: #1b1918;
@@ -11,7 +14,7 @@
   --color-text-gray-light: #acacac;
   --color-text-dark: #000000;
 
-  --box-shadow: 0px 3px 13px -2px rgba(0,0,0,0.68);
+  --box-shadow: 0px 3px 13px -2px rgba(0, 0, 0, 0.68);
 
   --hero-font-size-h1: 6rem;
   --hero-font-size-h2: 2.5rem;
@@ -33,11 +36,10 @@
 
 @font-face {
   font-family: "Paquito";
-  src:url('../../public/fonts/Paquito-Bold.woff2');
+  src: url("../../public/fonts/Paquito-Bold.woff2");
   font-weight: bold;
   font-style: normal;
 }
-
 
 @font-face {
   font-family: "Telma";
@@ -55,7 +57,7 @@
 
 @font-face {
   font-family: "Telma";
-  src:url('../../public/fonts/Telma-Bold.woff2');
+  src: url("../../public/fonts/Telma-Bold.woff2");
   font-weight: bold;
   font-style: normal;
 }
@@ -76,14 +78,14 @@
 
 @font-face {
   font-family: "Recia";
-  src:url('../../public/fonts/Recia-Bold.woff2');
+  src: url("../../public/fonts/Recia-Bold.woff2");
   font-weight: bold;
   font-style: normal;
 }
 
 @font-face {
   font-family: "Zina";
-  src:url('../../public/fonts/Zina-Regular.woff2');
+  src: url("../../public/fonts/Zina-Regular.woff2");
   font-weight: normal;
   font-style: normal;
 }
@@ -113,7 +115,7 @@
 }
 
 html {
-  font-size: 62.5%
+  font-size: 62.5%;
 }
 
 body {
@@ -134,8 +136,15 @@ body {
   }
 }
 
-p, li, a, label, div, label, textarea, button {
-   font-family: "Recia", sans-serif;
+p,
+li,
+a,
+label,
+div,
+label,
+textarea,
+button {
+  font-family: "Recia", sans-serif;
   font-size: 1.6rem;
 }
 
@@ -189,4 +198,50 @@ button {
 .button:hover {
   color: #fff;
   background-color: #930505;
+}
+
+.table-backdrop {
+  width: 100%;
+  padding: 5rem 3rem;
+  background-color: var(--color-bg-med);
+  background-image: url("../../public/imgs/bg-wood-grain.jpg");
+  background-size: cover;
+}
+
+.section-content {
+  width: 100%;
+  padding: 4rem;
+  border-radius: 5px;
+  border: 2px solid var(--color-primary);
+  background-color: var(--color-bg-med);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 3px 7px 21px -1px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 3px 7px 21px -1px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 3px 7px 21px -1px rgba(0, 0, 0, 0.75);
+}
+
+.section-content h2 {
+  font-family: 'Paquito', sans-serif;
+  margin-bottom: 1rem;
+  font-size: 4rem;
+}
+
+.section-content p {
+    font-size: 2rem;
+  padding: 0 15rem;
+  margin-bottom: 2rem;
+}
+
+@media (max-width: 35em) {
+  .table-backdrop {
+    width: 100%;
+    padding: 5rem 1rem;
+  }
+
+  .section-content {
+    width: 100%;
+    padding: 4rem 1rem;
+  }
 }

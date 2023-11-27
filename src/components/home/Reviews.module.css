@@ -1,0 +1,59 @@
+.reviews {
+  width: 100%;
+  height: 50rem;
+  background-image: url('../../../public/imgs/meal.jpg');
+  background-size: cover;
+}
+
+.reviews-overlay {
+  width: 100%;
+  height: 100%;
+  padding: 5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #000;
+  background-color:#f0ddbbd0;
+}
+
+.reviews h2 {
+  font-family: "Paquito", sans-serif;
+  font-size: 4rem;
+  color: var(--color-primary);
+}
+
+.reviews-container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.review {
+  width: 30rem;
+  height: 30rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+  margin: 2rem;
+  border-radius: 5px;
+  border: 1px solid gray;
+  background-color: rgba(255, 255, 255, 0.728);
+}
+
+.review-text {
+    margin-bottom: auto;
+}
+
+.stars {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.stars img {
+  width: 3rem;
+  height: auto;
+  margin: 1rem;
+}

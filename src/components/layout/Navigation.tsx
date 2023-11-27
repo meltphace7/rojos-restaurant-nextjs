@@ -17,7 +17,7 @@ const Navigation: React.FC = () => {
       <ul className={classes["nav-menu"]}>
         <li>
           <Link href="/" className={pathname === "/" ? classes.active : ""}>
-            Home
+            HOME
           </Link>
         </li>
         <li className={classes.dropdown}>
@@ -25,7 +25,7 @@ const Navigation: React.FC = () => {
             href="/menu"
             className={pathname === "/menu" ? classes.active : ""}
           >
-            Menu
+            MENU
           </Link>
         </li>
         <li>
@@ -33,7 +33,7 @@ const Navigation: React.FC = () => {
             href="/about"
             className={pathname === "/about" ? classes.active : ""}
           >
-            About
+            ABOUT US
           </Link>
         </li>
     
@@ -42,7 +42,7 @@ const Navigation: React.FC = () => {
             href="/catering"
             className={pathname === "/catering" ? classes.active : ""}
           >
-            Catering
+            CATERING
           </Link>
         </li>
         <li>
@@ -50,7 +50,7 @@ const Navigation: React.FC = () => {
             href="/contact"
             className={pathname === "/contact" ? classes.active : ""}
           >
-            Contact
+            CONTACT
           </Link>
         </li>
       </ul>

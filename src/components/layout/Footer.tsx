@@ -19,10 +19,7 @@ const Footer: React.FC = () => {
           <Image src={phoneIcon} alt="Phone icon" />
           <p>(509)-555-5672</p>
         </div>
-        <div className={classes["contact"]}>
-          <Image src={emailIcon} alt="Phone icon" />
-          <p>rojosmexicanrestaurant@gmail.com</p>
-        </div>
+       
         <div className={classes["contact"]}>
           <Image src={addressIcon} alt="Phone icon" />
           <p>3498 Toro Drive</p>

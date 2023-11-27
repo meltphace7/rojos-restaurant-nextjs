@@ -101,7 +101,9 @@
 }
 
 .active {
-  border-bottom: 1px solid var(--color-primary);
+  /* border-bottom: 1px solid var(--color-primary); */
+  background-color: var(--color-primary);
+  padding: 0 2rem;
 }
 
 .navigation__logout-btn {

@@ -1,0 +1,54 @@
+.feature-overlay {
+  position: relative;
+  width: 100%;
+  min-height: 30vw;
+  overflow: hidden;
+  background-color: rgba(0, 0, 0, 0.151);
+  display: flex;
+  align-items: center;
+  transition: all 500ms ease-in;
+}
+
+/*_____TEXT CONTAINER_____*/
+.feature-box__text-container {
+  width: 100%;
+  padding: 0 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+   z-index: 1;
+}
+
+.feature-box__text-container h1 {
+   font-family: "Paquito", sans-serif;
+  margin-top: 2rem;
+  font-size: 5vw;
+  line-height: 4.5vw;
+  font-weight: bold;
+  color: #fff;
+}
+
+/*_____IMAGE_____*/
+.feature-overlay img {
+  width: 110%;
+  height: auto;
+  position: absolute;
+  top: -25rem;
+  z-index: -1;
+
+}
+
+.feature--hidden {
+  opacity: 0;
+  transform: translateY(8rem);
+}
+
+.highlight {
+    color: var(--color-primary);
+}
+
+@media (max-width: 60em) {
+  .feature-overlay img {
+    top: -30rem;
+  }
+}

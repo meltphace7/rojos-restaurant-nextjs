@@ -1,6 +1,5 @@
 .about-page {
   width: 100%;
-  min-height: 80rem;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -8,18 +7,42 @@
 }
 
 .about-section {
-  padding: 5rem 0;
   width: 100%;
-  min-height: 70rem;
-  background-color: var(--color-bg-light);
+  /* background-color: var(--color-bg-light); */
   color: #000;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
+.about-mission {
+  width: 100%;
+  height: 100%;
+    padding: 5rem 3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: var(--color-bg-med);
+  background-image: url('../../public/imgs/bg-wood-grain.jpg');
+  background-size: cover;
+}
+
+.about-mission-text {
+  width: 100%; 
+     padding: 4rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 3px;
+   background-color: var(--color-bg-med);
+   border: 2px solid var(--color-primary);
+   box-shadow: 3px 7px 21px -1px rgba(0,0,0,0.75);
+-webkit-box-shadow: 3px 7px 21px -1px rgba(0,0,0,0.75);
+-moz-box-shadow: 3px 7px 21px -1px rgba(0,0,0,0.75);
+}
+
 .about-section h1 {
-  font-size: 4rem;
+   font-family: 'Paquito', sans-serif;
 }
 
 .accent {
@@ -35,34 +58,17 @@
   margin-bottom: 2rem;
 }
 
-.about-image__overlay {
-  margin-top: 10rem;
-  width: 100%;
-  height: 25rem;
-  background-image: url("../../public/imgs/tacos-5.jpg");
-  background-attachment: fixed;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.about-image__overlay h2 {
-  font-size: 5rem;
-  letter-spacing: 0.15rem;
-  color: #fff;
-}
-
-.about-image__overlay h2 span {
-  color: var(--color-primary);
-}
-
 .team-section {
-  padding: 5rem 0;
   width: 100%;
   min-height: 50rem;
   display: flex;
   flex-direction: column;
   align-items: center;
+   background-color: var(--color-bg-med);
+}
+
+.team-section h1 {
+   font-family: 'Paquito', sans-serif;
 }
 
 .team-img {

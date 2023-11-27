@@ -52,14 +52,14 @@ const MobileNavigation: React.FC = () => {
             <li className={classes["navigation__item"]}>
               <Link
                 onClick={closeMenuHandler}
-                href="/services"
+                href="/menu"
                 className={
-                  pathname === "/services"
+                  pathname === "/menu"
                     ? `${classes.active} ${classes["navigation__link"]}`
                     : classes["navigation__link"]
                 }
               >
-                Services
+                Menu
               </Link>
             </li>
 
@@ -80,28 +80,14 @@ const MobileNavigation: React.FC = () => {
             <li className={classes["navigation__item"]}>
               <Link
                 onClick={closeMenuHandler}
+                href="/catering"
                 className={
-                  pathname === "/portfolio"
-                    ? `${classes.active} ${classes["navigation__link"]}`
-                    : classes["navigation__link"]
-                }
-                href="/portfolio"
-              >
-                Portfolio
-              </Link>
-            </li>
-
-            <li className={classes["navigation__item"]}>
-              <Link
-                onClick={closeMenuHandler}
-                href="/faq"
-                className={
-                  pathname === "/faq"
+                  pathname === "/catering"
                     ? `${classes.active} ${classes["navigation__link"]}`
                     : classes["navigation__link"]
                 }
               >
-                FAQ
+                Catering
               </Link>
             </li>
 
