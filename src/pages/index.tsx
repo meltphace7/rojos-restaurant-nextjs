@@ -9,7 +9,9 @@ import HeroVideo from "../components/home/HeroVideo";
 import Welcome from "../components/home/Welcome";
 import SplitFeat from "../components/general/SplitFeature";
 import SplitFeatAlt from "../components/general/SplitFeatureAlt";
-import ParallaxOverlay from '../components/general/ParallaxOverlay';
+import OverlayTextOne from '../components/home/OverlayTextOne';
+import OverlayTextTwo from "../components/home/OverlayTextTwo";
+// import ParallaxOverlay from '../components/general/ParallaxOverlay';
 import Reviews from "../components/home/Reviews";
 
 // IMAGES
@@ -66,8 +68,8 @@ export default function Home() {
           bgImage={woodGrain}
           button="Our Menu"
         />
-
-        <ParallaxOverlay title="Made Fresh" image={nachos} word="Fresh" />
+        <OverlayTextOne />
+        {/* <ParallaxOverlay title="Made Fresh" image={nachos} word="Fresh" /> */}
         <SplitFeatAlt
           title="Authentic Flavor"
           text="Experience the taste of tradition. We take pride in preserving traditional recipes, and sourcing the finest ingredients to ensure an unparalleled dining experience."
@@ -76,12 +78,12 @@ export default function Home() {
           bgImage={grill}
           button="About Us"
         />
-
-        <ParallaxOverlay
+        <OverlayTextTwo />
+        {/* <ParallaxOverlay
           title="Outstanding Taste"
           image={enchiladasOne}
           word="Outstanding"
-        />
+        /> */}
 
         <SplitFeat
           title="We Cater!"

@@ -2,15 +2,13 @@ import React, { Fragment, useState, useEffect } from 'react'
 import Head from 'next/head';
 import classes from "@/styles/Catering.module.css";
 import Image from 'next/image';
-
+import OverlayText from "../../components/catering/OverlayText";
+// IMGS
 import table from '../../../public/imgs/meal.jpg';
 import platter from "../../../public/imgs/platter.jpg";
 import tacos from "../../../public/imgs/tacos-1.jpg";
-
 import enchildas from '../../../public/imgs/enchiladas-1.jpg'
 import fajitas from "../../../public/imgs/burrito-1.jpg";
-
-import FeatureOverlay from '../../components/general/ParallaxOverlay';
 
 const FaqPage: React.FC = () => {
   // Parallax effect for Header
@@ -42,11 +40,11 @@ const FaqPage: React.FC = () => {
           </div>
         </header>
         <section className={classes["catering-feature-section"]}>
-          <div className={classes["table-backdrop"]}>
-            <div className={classes["section-content"]}>
+          <div className={"table-backdrop"}>
+            <div className={"section-content"}>
               <h2>Let Us Do The Cooking!</h2>
-              <div className={classes.accent}></div>
-              <p>
+              <div className={"accent"}></div>
+              <p className={"section-content-text"}>
                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Let
                 us spice up your event with the vibrant flavors of Mexico! Our
                 catering services bring the fiesta to you, handling all the
@@ -69,18 +67,12 @@ const FaqPage: React.FC = () => {
               </div>
             </div>
           </div>
-
-          <FeatureOverlay
-            title="Perfect For Your Fiesta!"
-            image={fajitas}
-            word="Fiesta!"
-          />
-
-          <div className={classes["table-backdrop"]}>
-            <div className={classes["section-content"]}>
+          <OverlayText />
+          <div className={"table-backdrop"}>
+            <div className={"section-content"}>
               <h2>CATERING MENU</h2>
-              <div className={classes.accent}></div>
-              <p>
+              <div className={"accent"}></div>
+              <p className={"section-content-text"}>
                 Served Buffet Style (20 person min). Please call Rojo&apos;s for
                 pricing and availability.
               </p>

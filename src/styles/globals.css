@@ -225,10 +225,17 @@ button {
 .section-content h2 {
   font-family: 'Paquito', sans-serif;
   margin-bottom: 1rem;
-  font-size: 4rem;
+  font-size: 3.5rem;
 }
 
-.section-content p {
+.accent {
+  width: 12rem;
+  height: 0.2rem;
+  background-color: var(--color-primary);
+  margin-bottom: 4rem;
+}
+
+.section-content-text {
     font-size: 2rem;
   padding: 0 15rem;
   margin-bottom: 2rem;
@@ -237,11 +244,15 @@ button {
 @media (max-width: 35em) {
   .table-backdrop {
     width: 100%;
-    padding: 5rem 1rem;
+    padding: 5rem .75rem;
   }
 
   .section-content {
     width: 100%;
-    padding: 4rem 1rem;
+    padding: 4rem 0rem;
   }
+
+  .section-content-text {
+  padding: 0 1.5rem;
+}
 }

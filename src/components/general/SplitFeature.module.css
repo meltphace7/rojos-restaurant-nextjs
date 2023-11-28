@@ -74,12 +74,12 @@
 
 @media (max-width: 35em) {
   .split-feature {
-    height: 70rem;
+    height: 80rem;
     flex-direction: column-reverse;
   }
 
   .split-feature-alt {
-      height: 70rem;
+      height: 80rem;
       flex-direction: column;
   }
 
@@ -96,13 +96,11 @@
 
   .split-feature__text-container h2 {
 
-  font-size: 6vw;
+  font-size: 8vw;
 }
 
-
-
 .split-feature__text-container p {
-  font-size: 3.5vw;
+  font-size: 2rem;
   margin-bottom: 2rem;
 }
 }

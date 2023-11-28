@@ -18,11 +18,11 @@ const AboutPage: React.FC = () => {
       <div className={classes["about-page"]}>
         <Hero />
         <section className={classes["about-section"]}>
-          <div className={classes["about-mission"]}>
-            <div className={classes["about-mission-text"]}>
-              <h1>Tradition Lives On</h1>
-              <div className={classes.accent}></div>
-              <p>
+          <div className={"table-backdrop"}>
+            <div className={"section-content"}>
+              <h2>Tradition Lives On</h2>
+              <div className={"accent"}></div>
+              <p className={"section-content-text"}>
                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Founded
                 in 2006 by Mike Higgins, Tieton construction has thrived by
                 upholding core values of quality, integrity, and community.
@@ -33,7 +33,7 @@ const AboutPage: React.FC = () => {
                 communities we serve. Explore our journey and discover how we
                 transform visions into quality-built realities.
               </p>
-              <p>
+              <p className={"section-content-text"}>
                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;At
                 Tieton Construction, our commitment revolves around you—the
                 customer. Experience worry-free projects as we blend
@@ -54,11 +54,11 @@ const AboutPage: React.FC = () => {
             word="Flavor"
           />
           <div className={classes["team-section"]}>
-            <div className={classes["about-mission"]}>
-              <div className={classes["about-mission-text"]}>
-                <h1>Our Team</h1>
-                <div className={classes.accent}></div>
-                <p>
+            <div className={"table-backdrop"}>
+              <div className={"section-content"}>
+                <h2>Our Team</h2>
+                <div className={"accent"}></div>
+                <p className={"section-content-text"}>
                   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                   Welcome to Rojo&apos;s, where passion meets flavor in a
                   symphony of Mexican culinary excellence. Nestled in the heart

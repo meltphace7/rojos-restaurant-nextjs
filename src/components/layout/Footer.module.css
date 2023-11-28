@@ -26,7 +26,7 @@
 }
 
 .contact {
-  margin: 0 5rem;
+  margin: .5rem 5rem;
   display: flex;
   flex-direction: column;
   align-items: center;
