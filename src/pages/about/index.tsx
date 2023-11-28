@@ -24,30 +24,30 @@ const AboutPage: React.FC = () => {
               <div className={"accent"}></div>
               <p className={"section-content-text"}>
                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Welcome
-                to Rojo's, a vibrant Mexican culinary haven founded by the
-                spirited Mexican immigrant, Pepe "Rojo" Garcia, in the heart of
-                Wenatchee in 2003. Born from a passion for authentic flavors and
-                a desire to share the rich tapestry of Mexican cuisine, Rojo's
-                is a celebration of family, tradition, and the joy of savoring
-                delicious meals together. From the moment you step into Rojo's,
-                you are embraced by the warmth of Pepe's family recipes, passed
-                down through generations. Each dish tells a story, carrying the
-                essence of Mexican culture and the love that goes into creating
-                every flavor-packed bite.
+                to Rojo&apos;s, a vibrant Mexican culinary haven founded by the
+                spirited Mexican immigrant, Pepe &quot;Rojo&quot; Garcia, in the
+                heart of Wenatchee in 2003. Born from a passion for authentic
+                flavors and a desire to share the rich tapestry of Mexican
+                cuisine, Rojo&apos;s is a celebration of family, tradition, and
+                the joy of savoring delicious meals together. From the moment
+                you step into Rojo&apos;s, you are embraced by the warmth of
+                Pepe&apos;s family recipes, passed down through generations.
+                Each dish tells a story, carrying the essence of Mexican culture
+                and the love that goes into creating every flavor-packed bite.
               </p>
               <p className={"section-content-text"}>
                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Over
-                the years, Rojo's has become an integral part of the downtown
-                Wenatchee culinary scene, inviting locals and visitors alike to
-                experience the true taste of Mexico. The menu boasts a diverse
-                array of dishes, from sizzling fajitas to mouthwatering
+                the years, Rojo&apos;s has become an integral part of the
+                downtown Wenatchee culinary scene, inviting locals and visitors
+                alike to experience the true taste of Mexico. The menu boasts a
+                diverse array of dishes, from sizzling fajitas to mouthwatering
                 enchiladas, all prepared with the finest ingredients and a
-                genuine commitment to authenticity. At Rojo's, every meal is a
-                fiesta, and every guest is treated like familia. So, come join
-                us at Rojo's for an unforgettable dining experience where the
-                spirit of Mexico comes alive in every dish, and where Pepe
-                "Rojo" Garcia's dream continues to flourish, creating lasting
-                memories one flavorful bite at a time.
+                genuine commitment to authenticity. At Rojo&apos;s, every meal
+                is a fiesta, and every guest is treated like familia. So, come
+                join us at Rojo&apos;s for an unforgettable dining experience
+                where the spirit of Mexico comes alive in every dish, and where
+                Pepe &quot;Rojo&quot; Garcia&apos;s dream continues to flourish,
+                creating lasting memories one flavorful bite at a time.
               </p>
             </div>
           </div>
