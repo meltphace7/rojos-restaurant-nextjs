@@ -23,31 +23,34 @@ const AboutPage: React.FC = () => {
               <h2>Tradition Lives On</h2>
               <div className={"accent"}></div>
               <p className={"section-content-text"}>
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Founded
-                in 2006 by Mike Higgins, Tieton construction has thrived by
-                upholding core values of quality, integrity, and community.
-                Evolving to meet the demands of our fast-paced world, we remain
-                committed to delivering exceptional construction services. With
-                a focus on craftsmanship and ethical practices, we build not
-                only structures but enduring relationships within the
-                communities we serve. Explore our journey and discover how we
-                transform visions into quality-built realities.
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Welcome
+                to Rojo's, a vibrant Mexican culinary haven founded by the
+                spirited Mexican immigrant, Pepe "Rojo" Garcia, in the heart of
+                Wenatchee in 2003. Born from a passion for authentic flavors and
+                a desire to share the rich tapestry of Mexican cuisine, Rojo's
+                is a celebration of family, tradition, and the joy of savoring
+                delicious meals together. From the moment you step into Rojo's,
+                you are embraced by the warmth of Pepe's family recipes, passed
+                down through generations. Each dish tells a story, carrying the
+                essence of Mexican culture and the love that goes into creating
+                every flavor-packed bite.
               </p>
               <p className={"section-content-text"}>
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;At
-                Tieton Construction, our commitment revolves around you—the
-                customer. Experience worry-free projects as we blend
-                craftsmanship with efficiency, ensuring beautiful results
-                delivered on time. Trust us to bring your vision to life,
-                surpassing expectations with every detail and timeline met.
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Over
+                the years, Rojo's has become an integral part of the downtown
+                Wenatchee culinary scene, inviting locals and visitors alike to
+                experience the true taste of Mexico. The menu boasts a diverse
+                array of dishes, from sizzling fajitas to mouthwatering
+                enchiladas, all prepared with the finest ingredients and a
+                genuine commitment to authenticity. At Rojo's, every meal is a
+                fiesta, and every guest is treated like familia. So, come join
+                us at Rojo's for an unforgettable dining experience where the
+                spirit of Mexico comes alive in every dish, and where Pepe
+                "Rojo" Garcia's dream continues to flourish, creating lasting
+                memories one flavorful bite at a time.
               </p>
             </div>
           </div>
-          {/* <div className={classes["about-image__overlay"]}>
-            <h2>
-              A Passion for<span>Flavor</span>
-            </h2>
-          </div> */}
           <FeatureOverlay
             title="A Passion For Flavor"
             image={enchiladas}
@@ -62,7 +65,7 @@ const AboutPage: React.FC = () => {
                   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                   Welcome to Rojo&apos;s, where passion meets flavor in a
                   symphony of Mexican culinary excellence. Nestled in the heart
-                  of [City], our restaurant is more than just a dining
+                  of Wenatchee, our restaurant is more than just a dining
                   destination, it&apos;s a celebration of authentic Mexican
                   cuisine crafted with love and skill. At Rojo&apos;s, our
                   dedicated staff is the heartbeat of our kitchen, bringing

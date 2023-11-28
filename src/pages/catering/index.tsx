@@ -8,7 +8,7 @@ import table from '../../../public/imgs/meal.jpg';
 import platter from "../../../public/imgs/platter.jpg";
 import tacos from "../../../public/imgs/tacos-1.jpg";
 import enchildas from '../../../public/imgs/enchiladas-1.jpg'
-import fajitas from "../../../public/imgs/burrito-1.jpg";
+import fajitas from "../../../public/imgs/fajitas-2.jpg";
 
 const FaqPage: React.FC = () => {
   // Parallax effect for Header
@@ -35,7 +35,7 @@ const FaqPage: React.FC = () => {
         >
           <div className={classes["hero-overlay"]}>
             <div className={classes["hero-text"]}>
-              <h1>Catering!</h1>
+              <h1>Catering</h1>
             </div>
           </div>
         </header>
@@ -79,18 +79,17 @@ const FaqPage: React.FC = () => {
               <div className={classes["cater-service-container"]}>
                 <div className={classes["cater-service"]}>
                   <div className={classes["cater-service__text-container"]}>
-                    <h3>Enchilada Bar</h3>
+                    <h3>Taco Bar</h3>
                     <p>
-                      INCLUDES: CHOICE OF CHEESE, CHICKEN OR SEASONED GROUND
-                      BEEF. SERVED WITH RICE, BEANS, CHIPS AND HOMEMADE SALSA. 2
-                      ENCHILADAS PER PERSON.
+                      INCLUDES: CHICKEN OR SEASONED GROUND BEEF, TORTILLAS,
+                      RICE, BEANS, LETTUCE, CHEESE, TOMATOES, CHIPS AND HOMEMADE
+                      SALSA. 2 TACOS PER PERSON.
                     </p>
                   </div>
                   <div className={classes["cater-service__img-container"]}>
-                    <Image src={enchildas} alt="" />
+                    <Image src={tacos} alt="" />
                   </div>
                 </div>
-
                 <div className={classes["cater-service"]}>
                   <div className={classes["cater-service__text-container"]}>
                     <h3>Fajita Bar</h3>
@@ -104,18 +103,17 @@ const FaqPage: React.FC = () => {
                     <Image src={fajitas} alt="" />
                   </div>
                 </div>
-
                 <div className={classes["cater-service"]}>
                   <div className={classes["cater-service__text-container"]}>
-                    <h3>Taco Bar</h3>
+                    <h3>Enchilada Bar</h3>
                     <p>
-                      INCLUDES: CHICKEN OR SEASONED GROUND BEEF, TORTILLAS,
-                      RICE, BEANS, LETTUCE, CHEESE, TOMATOES, CHIPS AND HOMEMADE
-                      SALSA. 2 TACOS PER PERSON.
+                      INCLUDES: CHOICE OF CHEESE, CHICKEN OR SEASONED GROUND
+                      BEEF. SERVED WITH RICE, BEANS, CHIPS AND HOMEMADE SALSA. 2
+                      ENCHILADAS PER PERSON.
                     </p>
                   </div>
                   <div className={classes["cater-service__img-container"]}>
-                    <Image src={tacos} alt="" />
+                    <Image src={enchildas} alt="" />
                   </div>
                 </div>
               </div>

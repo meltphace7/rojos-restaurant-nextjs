@@ -56,17 +56,17 @@ const ContactPage: React.FC = () => {
 
           <div className={classes["contact-row"]}>
             <div className={classes["contact-container"]}>
-              <Image src={emailIcon} alt="email icon" />
-              <h1>Email</h1>
-              <div className={classes.accent}></div>
-              <h2>rojosmexicanrestaurant@gmail.com</h2>
-            </div>
-            <div className={classes["contact-container"]}>
               <Image src={addressIcon} alt="address icon" />
               <h1>Address</h1>
               <div className={classes.accent}></div>
               <h2>3498 Toro Drive</h2>
               <h2>Wenatchee WA, 98504</h2>
+            </div>
+            <div className={classes["contact-container"]}>
+              <Image src={emailIcon} alt="email icon" />
+              <h1>Email</h1>
+              <div className={classes.accent}></div>
+              <h2>rojosmexicanrestaurant@gmail.com</h2>
             </div>
           </div>
         </section>

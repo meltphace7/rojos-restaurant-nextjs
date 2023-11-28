@@ -42,14 +42,10 @@
   height: auto;
   position: absolute;
   z-index: -1;
-  top: -30rem;
+  top: -34rem;
 }
 
-@media (max-width: 60em) {
-  .feature-overlay img {
-    top: -30rem;
-  }
-}
+
 
 @media (max-width: 35em) {
   .feature-box__text-container {
@@ -61,7 +57,6 @@
 
   .feature-overlay img {
     width: 150%;
-    top: -30rem;
   }
 
   .feature-box__text-container h1 {

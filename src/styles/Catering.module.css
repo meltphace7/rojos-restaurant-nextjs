@@ -125,11 +125,12 @@
   font-style: italic;
 }
 
-@media (max-width: 50em) {
-
-}
 
 @media (max-width: 35em) {
+  .cateering-hero {
+    height: 40rem;
+  }
+
   .hero-text h1 {
     font-size: 12vw;
   }

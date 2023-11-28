@@ -46,12 +46,12 @@ const ServicesPage: React.FC = () => {
           content="Menu page for Rojo's Mexican Restaurant"
         />
       </Head>
-      <div className={classes["services-page"]}>
+      <div className={classes["menu-page"]}>
         <header
-          className={classes["services-hero"]}
+          className={classes["menu-hero"]}
           style={{ transform: `translateY(${offsetY * 0.5}px)` }}
         >
-          <div className={classes["services-hero-overlay"]}>
+          <div className={classes["menu-hero-overlay"]}>
             <div className={classes["hero-text"]}>
               <h1>Menu</h1>
               <h2>Quality Comes First</h2>
@@ -68,7 +68,7 @@ const ServicesPage: React.FC = () => {
                 <MenuItem
                   title="Chips and Salsa"
                   description="House made chips and fresh pico de gallo."
-                  price={11}
+                  price={5}
                   image={salsa}
                 />
               </div>
@@ -77,7 +77,7 @@ const ServicesPage: React.FC = () => {
                 <MenuItem
                   title="Chips and Guac"
                   description="House made tortilla chips and fresh made guacamole"
-                  price={10}
+                  price={8}
                   image={guac}
                 />
               </div>
@@ -85,7 +85,7 @@ const ServicesPage: React.FC = () => {
                 <MenuItem
                   title="Nachos"
                   description="Delicous Nachos with cheese, seasoned beef, jalapenos guac and sour cream."
-                  price={10}
+                  price={12}
                   image={nachos}
                 />
               </div>
@@ -116,7 +116,7 @@ const ServicesPage: React.FC = () => {
                 <MenuItem
                   title="Shrimp Tacos"
                   description="Fresh shrimp, cotija and ceviche on a house made tortilla"
-                  price={12}
+                  price={13}
                   image={tacoThree}
                 />
               </div>
@@ -124,7 +124,7 @@ const ServicesPage: React.FC = () => {
                 <MenuItem
                   title="Burrito Rojo"
                   description="Steak, chicken or carnitas with beans, rice, onions, cheese, sour cream, guac and our signature Rojo sauce."
-                  price={14}
+                  price={13}
                   image={burritoOne}
                 />
               </div>
@@ -133,7 +133,7 @@ const ServicesPage: React.FC = () => {
                 <MenuItem
                   title="Burrito Gigantico"
                   description="This monster is the size of your head!  Feeds two people or one really fat one."
-                  price={17}
+                  price={14}
                   image={burritoTwo}
                 />
               </div>
@@ -142,7 +142,7 @@ const ServicesPage: React.FC = () => {
                 <MenuItem
                   title="Burrito Loco"
                   description="Crazy flavorful burrito loaded with your choice of meat, sour cream, salsa, guac and french fries drenched in nacho cheese."
-                  price={10}
+                  price={16}
                   image={burritoThree}
                 />
               </div>
@@ -168,7 +168,7 @@ const ServicesPage: React.FC = () => {
                 <MenuItem
                   title="Fajitas"
                   description="Your choice of carne asada, chicken or pork, with bell peppers, onions and mushrooms, served on a sizzling platter."
-                  price={13}
+                  price={18}
                   image={fajitas}
                 />
               </div>
