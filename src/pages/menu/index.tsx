@@ -40,7 +40,7 @@ const ServicesPage: React.FC = () => {
   return (
     <Fragment>
       <Head>
-        <title>Menu | Rojo's Mexican Restaurant</title>
+        <title>Menu | Rojo&apos;s Mexican Restaurant</title>
         <meta
           name="description"
           content="Menu page for Rojo's Mexican Restaurant"

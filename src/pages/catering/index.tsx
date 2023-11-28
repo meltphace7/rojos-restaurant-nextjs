@@ -27,7 +27,7 @@ const FaqPage: React.FC = () => {
   return (
     <Fragment>
       <Head>
-        <title>Catering | Rojo's</title>
+        <title>Catering | Rojo&apos;s</title>
         <meta name="description" content="Catering page for Rojo's" />
       </Head>
       <div className={classes["catering-page"]}>
@@ -81,7 +81,7 @@ const FaqPage: React.FC = () => {
               <h2>CATERING MENU</h2>
               <div className={classes.accent}></div>
               <p>
-                Served Buffet Style (20 person min). Please call Rojo's for
+                Served Buffet Style (20 person min). Please call Rojo&apos;s for
                 pricing and availability.
               </p>
               <div className={classes["cater-service-container"]}>

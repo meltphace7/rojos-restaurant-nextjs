@@ -18,7 +18,7 @@ const Footer: React.FC = () => {
           <Image src={phoneIcon} alt="Phone icon" />
           <p>(509)-555-5672</p>
         </div>
-       
+
         <div className={classes["contact"]}>
           <Image src={addressIcon} alt="Phone icon" />
           <p>3498 Toro Drive</p>
@@ -32,7 +32,7 @@ const Footer: React.FC = () => {
       </div>
       <div className={classes["footer-bottom-row"]}>
         <div className={classes["footer-text"]}>
-          <p>&copy; 2023 Rojo's Mexican Restaurant All Right Reserved</p>
+          <p>&copy; 2023 Rojo&apos;s Mexican Restaurant All Right Reserved</p>
           <p>Website by Brock Dallman</p>
         </div>
 

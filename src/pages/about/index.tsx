@@ -48,7 +48,11 @@ const AboutPage: React.FC = () => {
               A Passion for<span>Flavor</span>
             </h2>
           </div> */}
-          <FeatureOverlay title="A Passion For Flavor" image={enchiladas} word="Flavor" />
+          <FeatureOverlay
+            title="A Passion For Flavor"
+            image={enchiladas}
+            word="Flavor"
+          />
           <div className={classes["team-section"]}>
             <div className={classes["about-mission"]}>
               <div className={classes["about-mission-text"]}>
@@ -56,30 +60,31 @@ const AboutPage: React.FC = () => {
                 <div className={classes.accent}></div>
                 <p>
                   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                  Welcome to Rojo's, where passion meets flavor in a symphony of
-                  Mexican culinary excellence. Nestled in the heart of [City],
-                  our restaurant is more than just a dining destination; it's a
-                  celebration of authentic Mexican cuisine crafted with love and
-                  skill. At Rojo's, our dedicated staff is the heartbeat of our
-                  kitchen, bringing together a team of culinary artisans whose
-                  commitment to excellence is unmatched. With years of
-                  experience and a profound love for Mexican culinary
-                  traditions, our chefs transform the freshest, locally sourced
-                  ingredients into a vibrant tapestry of flavors that dance on
-                  your palate. Our professional team takes pride in every dish
-                  they create, showcasing the rich tapestry of Mexican
-                  gastronomy. From the sizzle of perfectly seasoned fajitas to
-                  the comforting warmth of handmade tortillas, each plate tells
-                  a story of dedication, craftsmanship, and a deep respect for
-                  the art of cooking. We believe that a truly exceptional dining
-                  experience goes beyond the food itself. Our attentive and
-                  friendly staff is committed to providing top-notch service,
-                  ensuring that every visit to Rojo's is a memorable journey
-                  into the heart of Mexican culinary excellence. Whether you're
-                  a seasoned connoisseur of Mexican cuisine or a newcomer eager
-                  to explore the bold flavors of the region, Rojo's invites you
-                  to join us in a celebration of taste, tradition, and warm
-                  hospitality. Bienvenidos a Rojo's – where every meal is a
+                  Welcome to Rojo&apos;s, where passion meets flavor in a
+                  symphony of Mexican culinary excellence. Nestled in the heart
+                  of [City], our restaurant is more than just a dining
+                  destination, it&apos;s a celebration of authentic Mexican
+                  cuisine crafted with love and skill. At Rojo&apos;s, our
+                  dedicated staff is the heartbeat of our kitchen, bringing
+                  together a team of culinary artisans whose commitment to
+                  excellence is unmatched. With years of experience and a
+                  profound love for Mexican culinary traditions, our chefs
+                  transform the freshest, locally sourced ingredients into a
+                  vibrant tapestry of flavors that dance on your palate. Our
+                  professional team takes pride in every dish they create,
+                  showcasing the rich tapestry of Mexican gastronomy. From the
+                  sizzle of perfectly seasoned fajitas to the comforting warmth
+                  of handmade tortillas, each plate tells a story of dedication,
+                  craftsmanship, and a deep respect for the art of cooking. We
+                  believe that a truly exceptional dining experience goes beyond
+                  the food itself. Our attentive and friendly staff is committed
+                  to providing top-notch service, ensuring that every visit to
+                  Rojo&apos;s is a memorable journey into the heart of Mexican
+                  culinary excellence. Whether you&apos;re a seasoned
+                  connoisseur of Mexican cuisine or a newcomer eager to explore
+                  the bold flavors of the region, Rojo&apos;s invites you to
+                  join us in a celebration of taste, tradition, and warm
+                  hospitality. Bienvenidos a Rojo&apos;s – where every meal is a
                   masterpiece, and every guest is a cherished part of our
                   extended familia.
                 </p>

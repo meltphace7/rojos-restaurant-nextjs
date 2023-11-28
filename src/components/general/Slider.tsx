@@ -75,6 +75,7 @@ const Slider: React.FC<sliderProps> = (props) => {
           {props.images.map((_: any, index: number) => {
             return (
               <button
+                key={index}
                 onClick={() => setImageIndex(index)}
                 className={
                   index === imageIndex

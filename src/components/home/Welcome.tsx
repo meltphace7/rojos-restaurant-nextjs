@@ -14,12 +14,12 @@ const Welcome:React.FC = () => {
       <div className={classes.welcome}>
         <h2>
           <span className={classes["highlight-2"]}>Welcome</span> to{" "}
-          <span className={classes.highlight}>Rojo's!</span>
+          <span className={classes.highlight}>Rojo&apos;s!</span>
         </h2>
         <div className={classes.accent}></div>
         <p>
-          Welcome to Rojo's, where authenticity meets flavor! Indulge in our
-          vibrant Mexican cuisine crafted from scratch using the freshest
+          Welcome to Rojo&apos;s, where authenticity meets flavor! Indulge in
+          our vibrant Mexican cuisine crafted from scratch using the freshest
           ingredients. Experience the essence of tradition in every bite. ¡Buen
           provecho!
         </p>

@@ -8,15 +8,13 @@ const HeroVideo:React.FC = () => {
           src={require("../../../public/videos/tacos.mp4")}
           autoPlay
           muted
-                loop
-                playsInline
+          loop
+          playsInline
           className={classes["bg-video"]}
         />
         <div className={classes["bg-video__overlay"]}>
           <div className={classes["hero-text"]}>
-            <h1>
-              ROJO'S MEXICAN CUISINE
-            </h1>
+            <h1>ROJO&apos;S MEXICAN CUISINE</h1>
             <h2>Es Tiempo para Fiesta!</h2>
           </div>
         </div>
