@@ -10,7 +10,7 @@ import Welcome from "../components/home/Welcome";
 import SplitFeat from "../components/general/SplitFeature";
 import SplitFeatAlt from "../components/general/SplitFeatureAlt";
 import ParallaxOverlay from '../components/general/ParallaxOverlay';
-import Reviews from "../components/home/reviews";
+import Reviews from "../components/home/Reviews";
 
 // IMAGES
 import tacosOne from "../../public/imgs/tacos-1.jpg";
