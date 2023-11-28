@@ -12,7 +12,7 @@ const AboutPage: React.FC = () => {
   return (
     <Fragment>
       <Head>
-        <title>About | Rojo's Mexican Cuisine</title>
+        <title>About | Rojo&apos;s Mexican Cuisine</title>
         <meta name="description" content="About page for Rojo's Cantina" />
       </Head>
       <div className={classes["about-page"]}>

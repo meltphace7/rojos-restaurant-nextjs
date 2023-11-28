@@ -50,7 +50,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Rojo's Mexican Restaurant</title>
+        <title>Rojo&apos;s Mexican Restaurant</title>
         <meta name="description" content="Rojo's Mexican Restaurant Homepage" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
