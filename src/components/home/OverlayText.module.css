@@ -46,7 +46,7 @@
 
 .image-one {
  top: -25rem;
-}
+} 
 
 .image-two {
  top: -25rem;
@@ -62,21 +62,25 @@
 }
 
 @media (max-width: 60em) {
-
-
   .feature-overlay img {
     top: -30rem;
   }
 }
 
 @media (max-width: 35em) {
+      .feature-overlay img {
+    width: 140%;
+  }
+    .feature-box__text-container {
+  padding: 0 1rem;
+
+}
+    
     .feature-overlay {
     min-height: 60vw;
   }
 
-  .image-one {
-      width: 125%;
-  }
+
 
   .feature-box__text-container h1 {
   font-size: 9vw;

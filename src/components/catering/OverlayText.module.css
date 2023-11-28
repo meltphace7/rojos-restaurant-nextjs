@@ -16,11 +16,11 @@
   display: flex;
   align-items: center;
   justify-content: center;
-   z-index: 1;
+  z-index: 1;
 }
 
 .feature-box__text-container h1 {
-   font-family: "Paquito", sans-serif;
+  font-family: "Paquito", sans-serif;
   margin-top: 2rem;
   font-size: 5vw;
   line-height: 4.5vw;
@@ -29,11 +29,11 @@
 }
 
 .highlight-1 {
-    color: var(--color-primary);
+  color: var(--color-primary);
 }
 
 .highlight-2 {
-    color: var(--color-3);
+  color: var(--color-3);
 }
 
 /*_____IMAGE_____*/
@@ -42,29 +42,29 @@
   height: auto;
   position: absolute;
   z-index: -1;
-   top: -30rem;
+  top: -30rem;
 }
 
 @media (max-width: 60em) {
-
   .feature-overlay img {
     top: -30rem;
   }
 }
 
 @media (max-width: 35em) {
-    .feature-overlay {
+  .feature-box__text-container {
+    padding: 0 1rem;
+  }
+  .feature-overlay {
     min-height: 60vw;
   }
 
-   .feature-overlay img {
-       width: 140%;
+  .feature-overlay img {
+    width: 150%;
     top: -30rem;
   }
 
   .feature-box__text-container h1 {
-  
-  font-size: 8vw;
- 
-}
+    font-size: 8vw;
+  }
 }

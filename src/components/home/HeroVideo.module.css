@@ -55,10 +55,10 @@
   }
 
   .hero-text {
-    margin: 10rem 0 0 4rem;
+    margin: 10rem 0 4rem 0;
   }
 
   .hero-text h1 {
-    font-size: 6vw;
+    font-size: 5.5vw;
   }
 }
