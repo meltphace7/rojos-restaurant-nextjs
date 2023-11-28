@@ -3,9 +3,7 @@ import Head from 'next/head'
 import { Inter } from 'next/font/google'
 import classes from '@/styles/Home.module.css'
 import HeroVideo from "../components/home/HeroVideo";
-
-import { useInView } from "react-intersection-observer";
-
+// import { useInView } from "react-intersection-observer";
 
 //
 import Welcome from "../components/home/Welcome";
@@ -33,6 +31,8 @@ import enchiladasThree from "../../public/imgs/enchiladas-3.jpg";
 
 import nachos from "../../public/imgs/nachos.jpg";
 
+import meal from "../../public/imgs/meal.jpg";
+
 
 import woodGrain from "../../public/imgs/bg-wood-grain.jpg";
 import parchment from "../../public/imgs/bg-parchment.jpg";
@@ -40,15 +40,13 @@ import wood from "../../public/imgs/bg-wood-grain-2.jpg";
 import grill from "../../public/imgs/flame-grill.jpg";
 import table from "../../public/imgs/food-table.jpg";
 
-import Slider from '../components/general/Slider';
+// import InfiniteScroll from '../components/general/InfiniteScroll';
 
-const sliderImages = [nachos, enchiladasOne, burritoOne, tacosOne, fajitasOne];
+// const sliderImages = [nachos, enchiladasOne, burritoOne, tacosOne, fajitasOne, meal, burritoTwo];
 
 const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
-
-
   return (
     <>
       <Head>
@@ -60,8 +58,6 @@ export default function Home() {
       <main className={`${classes.main} ${inter.className}`}>
         <HeroVideo />
         <Welcome />
-     <Slider images={sliderImages} />
-
         <SplitFeat
           title="Delicious Quality"
           text="Our mouthwatering flavors and expertly crafted Mexican dishes are sure to delight your taste buds, leaving you craving for more."

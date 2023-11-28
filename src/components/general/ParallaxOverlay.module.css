@@ -48,7 +48,21 @@
 }
 
 @media (max-width: 60em) {
+
+
   .feature-overlay img {
     top: -30rem;
   }
+}
+
+@media (max-width: 35em) {
+    .feature-overlay {
+    min-height: 60vw;
+  }
+
+  .feature-box__text-container h1 {
+  
+  font-size: 8vw;
+ 
+}
 }

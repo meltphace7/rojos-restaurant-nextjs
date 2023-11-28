@@ -15,7 +15,7 @@
 .footer-bottom-row {
   padding: 2rem 0;
   width: 100%;
-  min-height: 10rem;
+  min-height: 7rem;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -23,7 +23,6 @@
 
 .footer-top-row {
   background-color: var(--color-primary);
-  color: #000;
 }
 
 .contact {
@@ -37,6 +36,8 @@
 .contact img {
   height: 3rem;
   width: auto;
+  fill: #fff;
+  stroke: #fff;
 }
 
 .footer-text {

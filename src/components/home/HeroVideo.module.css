@@ -36,7 +36,7 @@
 .hero-text h1 {
   color: var(--color-2);
   font-family: "Zina", sans-serif;
-  font-size: 8rem;
+  font-size: 6vw;
   letter-spacing: 0.2rem;
 }
 
@@ -59,6 +59,6 @@
   }
 
   .hero-text h1 {
-    font-size: 5rem;
+    font-size: 6vw;
   }
 }
