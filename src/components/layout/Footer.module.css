@@ -33,6 +33,10 @@
   color: #fff;
 }
 
+.contact p {
+  font-size: 2rem;
+}
+
 .contact img {
   height: 3rem;
   width: auto;
