@@ -22,7 +22,7 @@ const ContactPage: React.FC = () => {
   return (
     <Fragment>
       <Head>
-        <title>Contact | Rojo's Mexican Cuisine</title>
+        <title>Contact | Rojo&apos;s Mexican Cuisine</title>
         <meta
           name="description"
           content="Contact page Rojo's Mexican Cuisine"
