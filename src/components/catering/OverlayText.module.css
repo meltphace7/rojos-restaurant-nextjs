@@ -26,6 +26,7 @@
   line-height: 4.5vw;
   font-weight: bold;
   color: #fff;
+  text-shadow: var(--text-shadow);
 }
 
 .highlight-1 {
@@ -57,9 +58,18 @@
 
   .feature-overlay img {
     width: 150%;
+     top: -35rem;
   }
 
   .feature-box__text-container h1 {
     font-size: 8vw;
   }
+}
+
+@media (max-width: 30em) {
+  .feature-overlay img {
+    width: 160%;
+     top: -35rem;
+  }
+
 }

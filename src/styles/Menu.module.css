@@ -33,11 +33,13 @@
   font-family: "Zina", sans-serif;
   font-size: 8vw;
   color: #fff;
+  text-shadow: var(--text-shadow);
 }
 
 .hero-text h2 {
   font-size: var(--hero-font-size-h2);
   color: var(--color-primary);
+  text-shadow: var(--text-shadow);
 }
 
 .menu-section {

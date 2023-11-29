@@ -27,11 +27,13 @@
        font-family: "Zina", sans-serif;
   font-size: var(--hero-font-size-h1);
   color: var(--color-2);
+  text-shadow: var(--text-shadow);
 }
 
 .hero-text h2 {
     font-size: var(--hero-font-size-h2);
     color: #fff;
+    text-shadow: var(--text-shadow);
 }
 
 @media (max-width: 35em) {

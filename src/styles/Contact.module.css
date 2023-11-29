@@ -28,6 +28,7 @@
   font-size: var(--hero-font-size-h1);
   color: var(--color-2);
   margin: 1rem;
+  text-shadow: var(--text-shadow);
 }
 
 .contact-main {

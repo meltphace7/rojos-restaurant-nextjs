@@ -22,10 +22,10 @@ const ContactPage: React.FC = () => {
   return (
     <Fragment>
       <Head>
-        <title>Contact | Tieton Construction</title>
+        <title>Contact | Rojo's Mexican Cuisine</title>
         <meta
           name="description"
-          content="Contact page for Tieton Construction"
+          content="Contact page Rojo's Mexican Cuisine"
         />
       </Head>
       <div className={classes["contact-page"]}>

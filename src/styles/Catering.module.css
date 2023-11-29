@@ -30,6 +30,7 @@
   font-family: "Zina", sans-serif;
   font-size: 8vw;
   color: var(--color-2);
+  text-shadow: var(--text-shadow);
 }
 
 /*_________CATERING SECTION ONE___________*/

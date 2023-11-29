@@ -26,7 +26,7 @@ const FaqPage: React.FC = () => {
     <Fragment>
       <Head>
         <title>Catering | Rojo&apos;s</title>
-        <meta name="description" content="Catering page for Rojo's" />
+        <meta name="description" content="Catering page for Rojo's Mexican Cuisine" />
       </Head>
       <div className={classes["catering-page"]}>
         <header

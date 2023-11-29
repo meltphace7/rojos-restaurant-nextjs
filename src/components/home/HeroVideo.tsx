@@ -13,9 +13,9 @@ const HeroVideo:React.FC = () => {
           className={classes["bg-video"]}
         />
         <div className={classes["bg-video__overlay"]}>
-          <div className={classes["hero-text"]}>
-            <h1>ROJO&apos;S MEXICAN CUISINE</h1>
-            <h2>Es Tiempo para Fiesta!</h2>
+          <div className={classes.logo}>
+            <h1 className={classes["logo-top"]}>Rojo&apos;s</h1>
+            <h1 className={classes["logo-bottom"]}>Mexican Cuisine</h1>
           </div>
         </div>
       </header>

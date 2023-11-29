@@ -43,7 +43,7 @@ const ServicesPage: React.FC = () => {
         <title>Menu | Rojo&apos;s Mexican Restaurant</title>
         <meta
           name="description"
-          content="Menu page for Rojo's Mexican Restaurant"
+          content="Menu page for Rojo's Mexican Cuisine"
         />
       </Head>
       <div className={classes["menu-page"]}>
