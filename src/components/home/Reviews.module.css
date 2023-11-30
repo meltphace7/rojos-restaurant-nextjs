@@ -41,6 +41,7 @@
   background-color: rgba(0, 0, 0, 0.822);
   color: #fff;
   box-shadow: var(--box-shadow);
+  transition: all 600ms ease-in-out;
 }
 
 .review-text {
@@ -58,6 +59,11 @@
   width: 3rem;
   height: auto;
   margin: 1rem;
+}
+
+.hidden {
+    opacity: 0;
+    transform: translateY(5rem);
 }
 
 @media (max-width: 60em) {

@@ -1,14 +1,33 @@
-import React from "react";
+import React, {useState, useEffect } from "react";
 import classes from "./Reviews.module.css";
 import Image from "next/image";
 
 import Star from '../../../public/icons/star.svg';
-
-// import Fajitas from "../../../public/imgs/fajitas-1.jpg";
-// import Burrito from "../../../public/imgs/burrito-1.jpg";
-// import Tacos from "../../../public/imgs/tacos-4.jpg";
+import { useInView } from "react-intersection-observer";
 
 const Reviews: React.FC = () => {
+  // Intersection Observer pop-up / fade animation
+  const [animateOne, setAnimateOne] = useState<boolean>(false);
+  const [animateTwo, setAnimateTwo] = useState<boolean>(false);
+  const [animateThree, setAnimateThree] = useState<boolean>(false);
+
+  const options = { root: null, threshold: 0.2 };
+
+  const { ref: sectionRef, inView: sectionIsVisible } = useInView(options);
+
+  useEffect(() => {
+    console.log();
+    if (!sectionIsVisible) return;
+    const timeoutOne = setTimeout(() => setAnimateOne(true), 0);
+    const timeoutTwo = setTimeout(() => setAnimateTwo(true), 100);
+    const timeoutThree = setTimeout(() => setAnimateThree(true), 200);
+
+    return () => {
+      clearTimeout(timeoutOne);
+      clearTimeout(timeoutTwo);
+      clearTimeout(timeoutThree);
+    };
+  }, [sectionIsVisible]);
   return (
     <div className={classes.reviews}>
       <div className={classes["reviews-overlay"]}>
@@ -17,8 +36,14 @@ const Reviews: React.FC = () => {
           Don&apos;t Take Our Word For It! Our loyal customers speak for
           themeselves!
         </h3>
-        <div className={classes["reviews-container"]}>
-          <div className={classes.review}>
+        <div ref={sectionRef} className={classes["reviews-container"]}>
+          <div
+            className={
+              animateOne
+                ? `${classes.review}`
+                : `${classes.review} ${classes.hidden} `
+            }
+          >
             <p className={classes["review-text"]}>
               &quot;Wow this place was great! The service was fast, the food was
               amazing and the ambience. Would absolutely recommend to
@@ -33,7 +58,13 @@ const Reviews: React.FC = () => {
               <Image src={Star} alt="star" />
             </div>
           </div>
-          <div className={classes.review}>
+          <div
+            className={
+              animateTwo
+                ? `${classes.review}`
+                : `${classes.review} ${classes.hidden} `
+            }
+          >
             <p className={classes["review-text"]}>
               &quot;Came here for lunch and was blown away. The staff was so
               friendly and helpful and the food was incredible. My new favorite
@@ -48,7 +79,13 @@ const Reviews: React.FC = () => {
               <Image src={Star} alt="star" />
             </div>
           </div>
-          <div className={classes.review}>
+          <div
+            className={
+              animateThree
+                ? `${classes.review}`
+                : `${classes.review} ${classes.hidden} `
+            }
+          >
             <p className={classes["review-text"]}>
               &quot;The carnitas tacos were bomb! You can tell these chefs know
               their trade well. Definitely comming back!&quot;
