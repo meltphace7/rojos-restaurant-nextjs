@@ -19,12 +19,9 @@ const OverlayText: React.FC = () => {
   return (
     <section className={`${classes["feature-overlay"]}`}>
       <div className={classes["feature-box__text-container"]}>
-              <h1>
-                  <span className={classes['highlight-2']}>
-                      Perfect
-                       </span>
-           For Your{" "}
-          <span className={classes['highlight-1']}>Fiesta!</span>
+        <h1>
+          <span className={classes["highlight-2"]}>Perfect&nbsp;</span>
+          For Your <span className={classes["highlight-1"]}>Fiesta!</span>
         </h1>
       </div>
       <Image
