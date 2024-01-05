@@ -3,8 +3,7 @@ import Link from "next/link";
 import classes from "./Navigation.module.css";
 import Logo from "../logo/Logo";
 import { usePathname } from "next/navigation";
-import Image from "next/image";
-import downIcon from "../../../public/icons/chevron-down-outline.svg";
+// import downIcon from "../../../public/icons/chevron-down-outline.svg";
 
 const Navigation: React.FC = () => {
   const pathname = usePathname();

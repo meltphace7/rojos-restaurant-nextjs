@@ -52,7 +52,7 @@ const Welcome: React.FC = () => {
               : `${classes["img-container"]} ${classes.hidden} `
           }
         >
-          <Image src={taco} alt="tacos" />
+          <Image src={taco} alt="tacos" unoptimized />
         </div>
         <div
           className={
@@ -61,7 +61,7 @@ const Welcome: React.FC = () => {
               : `${classes["img-container"]} ${classes.hidden} `
           }
         >
-          <Image src={burrito} alt="burrito" />
+          <Image src={burrito} alt="burrito" unoptimized />
         </div>
         <div
           className={
@@ -70,7 +70,7 @@ const Welcome: React.FC = () => {
               : `${classes["img-container"]} ${classes.hidden} `
           }
         >
-          <Image src={nachos} alt="nachos" />
+          <Image src={nachos} alt="nachos" unoptimized />
         </div>
       </div>
     </div>

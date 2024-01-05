@@ -70,11 +70,11 @@ const SliderOverlay = (props) => {
       </div>
       <div className={classes["slider-controls"]}>
         <button onClick={prevSlideHandler}>
-          <Image src={prevIcon} alt="previous icon" />
+          <Image src={prevIcon} alt="previous icon" unoptimized />
         </button>
 
         <button onClick={nextSlideHandler}>
-          <Image src={nextIcon} alt="next icon" />
+          <Image src={nextIcon} alt="next icon" unoptimized />
         </button>
       </div>
       {/* <div className={classes["slide-count"]}>

@@ -15,17 +15,17 @@ const Footer: React.FC = () => {
     <footer className={classes.footer}>
       <div className={classes["footer-top-row"]}>
         <div className={classes["contact"]}>
-          <Image src={phoneIcon} alt="Phone icon" />
+          <Image src={phoneIcon} alt="Phone icon" unoptimized />
           <p>(509)-555-5672</p>
         </div>
 
         <div className={classes["contact"]}>
-          <Image src={addressIcon} alt="Phone icon" />
+          <Image src={addressIcon} alt="Phone icon" unoptimized />
           <p>3498 Toro Drive</p>
           <p> Wenatchee WA, 98504</p>
         </div>
         <div className={classes["contact"]}>
-          <Image src={hoursIcon} alt="Phone icon" />
+          <Image src={hoursIcon} alt="Phone icon" unoptimized />
           <p>Monday - Saturday</p>
           <p> 10:00AM - 10:30PM</p>
         </div>
@@ -48,6 +48,7 @@ const Footer: React.FC = () => {
               src={facebookLogo}
               alt="facebook logo"
               className={classes["link-logo"]}
+              unoptimized
             />
           </a>
           <a href="#">
@@ -55,6 +56,7 @@ const Footer: React.FC = () => {
               src={instagramLogo}
               alt="Instagram logo"
               className={classes["link-logo"]}
+              unoptimized
             />
           </a>
           <a href="#">
@@ -62,6 +64,7 @@ const Footer: React.FC = () => {
               src={googleLogo}
               alt="Google logo"
               className={classes["link-logo"]}
+              unoptimized
             />
           </a>
         </div>

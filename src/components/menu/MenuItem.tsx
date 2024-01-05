@@ -13,7 +13,7 @@ const MenuItem:React.FC<MenuItemProps> = (props) => {
     return (
       <div className={classes["menu-item"]}>
         <div className={classes["item-img__container"]}>
-          <Image src={props.image} alt={props.title} />
+          <Image src={props.image} alt={props.title} unoptimized />
         </div>
         <div className={classes["item-text__container"]}>
           <h3>{props.title}</h3>

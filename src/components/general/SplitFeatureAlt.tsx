@@ -16,10 +16,15 @@ const SplitFeatureAlt: React.FC<SplitFeatureProps> = (props) => {
   return (
     <section className={classes["split-feature-alt"]}>
       <div className={classes["split-feature__img-container"]}>
-        <Image src={props.image} alt="" />
+        <Image src={props.image} alt="" unoptimized />
       </div>
       <div className={classes["split-feature__text-container"]}>
-        <Image className={classes.background} src={props.bgImage} alt="" />
+        <Image
+          className={classes.background}
+          src={props.bgImage}
+          alt=""
+          unoptimized
+        />
         <div className={classes["split-feature__text-container-overlay"]}>
           <h2>{props.title}</h2>
           <div className={classes.accent}></div>

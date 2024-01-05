@@ -20,7 +20,7 @@ const OverlayTextOne: React.FC = () => {
     <section className={`${classes["feature-overlay"]}`}>
       <div className={classes["feature-box__text-container"]}>
         <h1>
-          Made <span className={classes['highlight-1']}>Fresh</span>
+          Made <span className={classes["highlight-1"]}>Fresh</span>
         </h1>
       </div>
       <Image
@@ -28,6 +28,7 @@ const OverlayTextOne: React.FC = () => {
         alt="Delicious plate of nachos"
         style={{ transform: `translateY(${240 - offsetY * 0.05}px)` }}
         className={classes["image-one"]}
+        unoptimized
       />
     </section>
   );

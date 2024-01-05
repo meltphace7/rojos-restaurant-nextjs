@@ -40,14 +40,14 @@ const ContactPage: React.FC = () => {
         <section className={classes["contact-main"]}>
           <div className={classes["contact-row"]}>
             <div className={classes["contact-container"]}>
-              <Image src={hoursIcon} alt="hours icon" />
+              <Image src={hoursIcon} alt="hours icon" unoptimized />
               <h1>Hours</h1>
               <div className={classes.accent}></div>
               <h2>Monday - Saturday</h2>
               <h2>10:00AM - 10:30PM</h2>
             </div>
             <div className={classes["contact-container"]}>
-              <Image src={phoneIcon} alt="phone icon" />
+              <Image src={phoneIcon} alt="phone icon" unoptimized />
               <h1>Phone</h1>
               <div className={classes.accent}></div>
               <h2>(509)-555-5672</h2>
@@ -56,14 +56,14 @@ const ContactPage: React.FC = () => {
 
           <div className={classes["contact-row"]}>
             <div className={classes["contact-container"]}>
-              <Image src={addressIcon} alt="address icon" />
+              <Image src={addressIcon} alt="address icon" unoptimized />
               <h1>Address</h1>
               <div className={classes.accent}></div>
               <h2>3498 Toro Drive</h2>
               <h2>Wenatchee WA, 98504</h2>
             </div>
             <div className={classes["contact-container"]}>
-              <Image src={emailIcon} alt="email icon" />
+              <Image src={emailIcon} alt="email icon" unoptimized />
               <h1>Email</h1>
               <div className={classes.accent}></div>
               <h2>rojosmexicanrestaurant@gmail.com</h2>

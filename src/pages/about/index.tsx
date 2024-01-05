@@ -13,7 +13,10 @@ const AboutPage: React.FC = () => {
     <Fragment>
       <Head>
         <title>About | Rojo&apos;s Mexican Cuisine</title>
-        <meta name="description" content="About page for Rojo's Mexican Cuisine" />
+        <meta
+          name="description"
+          content="About page for Rojo's Mexican Cuisine"
+        />
       </Head>
       <div className={classes["about-page"]}>
         <Hero />
@@ -91,7 +94,12 @@ const AboutPage: React.FC = () => {
                   masterpiece, and every guest is a cherished part of our
                   extended familia.
                 </p>
-                <Image src={team} alt="team" className={classes["team-img"]} />
+                <Image
+                  src={team}
+                  alt="team"
+                  className={classes["team-img"]}
+                  unoptimized
+                />
               </div>
             </div>
           </div>

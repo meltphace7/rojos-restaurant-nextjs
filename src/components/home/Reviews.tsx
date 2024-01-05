@@ -51,11 +51,11 @@ const Reviews: React.FC = () => {
             </p>
             <p>-Heather B</p>
             <div className={classes.stars}>
-              <Image src={Star} alt="star" />
-              <Image src={Star} alt="star" />
-              <Image src={Star} alt="star" />
-              <Image src={Star} alt="star" />
-              <Image src={Star} alt="star" />
+              <Image src={Star} alt="star" unoptimized />
+              <Image src={Star} alt="star" unoptimized />
+              <Image src={Star} alt="star" unoptimized />
+              <Image src={Star} alt="star" unoptimized />
+              <Image src={Star} alt="star" unoptimized />
             </div>
           </div>
           <div
@@ -72,11 +72,11 @@ const Reviews: React.FC = () => {
             </p>
             <p>-Jessica R</p>
             <div className={classes.stars}>
-              <Image src={Star} alt="star" />
-              <Image src={Star} alt="star" />
-              <Image src={Star} alt="star" />
-              <Image src={Star} alt="star" />
-              <Image src={Star} alt="star" />
+              <Image src={Star} alt="star" unoptimized />
+              <Image src={Star} alt="star" unoptimized />
+              <Image src={Star} alt="star" unoptimized />
+              <Image src={Star} alt="star" unoptimized />
+              <Image src={Star} alt="star" unoptimized />
             </div>
           </div>
           <div
@@ -92,11 +92,11 @@ const Reviews: React.FC = () => {
             </p>
             <p>-Matt H</p>
             <div className={classes.stars}>
-              <Image src={Star} alt="star" />
-              <Image src={Star} alt="star" />
-              <Image src={Star} alt="star" />
-              <Image src={Star} alt="star" />
-              <Image src={Star} alt="star" />
+              <Image src={Star} alt="star" unoptimized />
+              <Image src={Star} alt="star" unoptimized />
+              <Image src={Star} alt="star" unoptimized />
+              <Image src={Star} alt="star" unoptimized />
+              <Image src={Star} alt="star" unoptimized />
             </div>
           </div>
         </div>

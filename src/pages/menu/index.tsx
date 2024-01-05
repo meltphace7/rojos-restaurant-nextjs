@@ -1,8 +1,6 @@
 import React, { Fragment, useState, useEffect } from "react";
 import Head from "next/head";
 import classes from "@/styles/Menu.module.css";
-import Image from "next/image";
-import Link from "next/link";
 import MenuItem from "../../components/menu/MenuItem";
 import nachos from "../../../public/imgs/nachos.jpg";
 import guac from "../../../public/imgs/guac-1.jpg";

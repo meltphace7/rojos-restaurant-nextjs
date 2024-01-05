@@ -12,8 +12,8 @@ const InfiniteScroll: React.FC<infiniteScrollProps> = (props) => {
         <div className={classes.slide}>
           {props.images.map((img: any, i: number) => {
               return (
-                <div key={i} className={classes['image-container']}>
-                  <Image src={img} alt="image" />
+                <div key={i} className={classes["image-container"]}>
+                  <Image src={img} alt="image" unoptimized />
                 </div>
               );
           })}
@@ -22,7 +22,7 @@ const InfiniteScroll: React.FC<infiniteScrollProps> = (props) => {
           {props.images.map((img: any, i: number) => {
              return (
                <div key={i} className={classes["image-container"]}>
-                 <Image src={img} alt="image" />
+                 <Image src={img} alt="image" unoptimized />
                </div>
              );
           })}

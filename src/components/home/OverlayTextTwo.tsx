@@ -28,6 +28,7 @@ const OverlayTextTwo: React.FC = () => {
         alt="Delicious plate of enchiladas"
         style={{ transform: `translateY(${240 - offsetY * 0.05}px)` }}
         className={classes["image-two"]}
+        unoptimized
       />
     </section>
   );

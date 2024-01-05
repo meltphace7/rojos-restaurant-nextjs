@@ -49,7 +49,10 @@ const Slider: React.FC<sliderProps> = (props) => {
 
         
     return (
-      <section className={classes["slider-component"]} aria-label="Image Slider">
+      <section
+        className={classes["slider-component"]}
+        aria-label="Image Slider"
+      >
         <div className={classes.slider}>
           {props.images.map((img: any, i: number) => {
             return (
@@ -59,16 +62,27 @@ const Slider: React.FC<sliderProps> = (props) => {
                 alt="photo"
                 style={{ transform: `translateX(${-100 * imageIndex}%)` }}
                 aria-hidden={imageIndex !== i}
+                unoptimized
               />
             );
           })}
         </div>
         <div className={classes["slider-controls"]}>
           <button onClick={prevSlideHandler} aria-label="View previous slide">
-            <Image src={prevIcon} alt="previous slide button" aria-hidden/>
+            <Image
+              src={prevIcon}
+              alt="previous slide button"
+              aria-hidden
+              unoptimized
+            />
           </button>
           <button onClick={nextSlideHandler} aria-label="View previous slide">
-            <Image src={nextIcon} alt="next slide button" aria-hidden/>
+            <Image
+              src={nextIcon}
+              alt="next slide button"
+              aria-hidden
+              unoptimized
+            />
           </button>
         </div>
         <div className={classes.dots}>

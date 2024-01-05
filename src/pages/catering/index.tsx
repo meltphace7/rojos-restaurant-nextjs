@@ -26,7 +26,10 @@ const FaqPage: React.FC = () => {
     <Fragment>
       <Head>
         <title>Catering | Rojo&apos;s</title>
-        <meta name="description" content="Catering page for Rojo's Mexican Cuisine" />
+        <meta
+          name="description"
+          content="Catering page for Rojo's Mexican Cuisine"
+        />
       </Head>
       <div className={classes["catering-page"]}>
         <header
@@ -56,13 +59,13 @@ const FaqPage: React.FC = () => {
               </p>
               <div className={classes["catering-imgs"]}>
                 <div className={classes["catering-img__container"]}>
-                  <Image src={tacos} alt="tacos" />
+                  <Image src={tacos} alt="tacos" unoptimized />
                 </div>
                 <div className={classes["catering-img__container"]}>
-                  <Image src={platter} alt="tacos" />
+                  <Image src={platter} alt="tacos" unoptimized />
                 </div>
                 <div className={classes["catering-img__container"]}>
-                  <Image src={table} alt="tacos" />
+                  <Image src={table} alt="table" unoptimized />
                 </div>
               </div>
             </div>
@@ -87,7 +90,7 @@ const FaqPage: React.FC = () => {
                     </p>
                   </div>
                   <div className={classes["cater-service__img-container"]}>
-                    <Image src={tacos} alt="" />
+                    <Image src={tacos} alt="tacos" unoptimized />
                   </div>
                 </div>
                 <div className={classes["cater-service"]}>
@@ -100,7 +103,7 @@ const FaqPage: React.FC = () => {
                     </p>
                   </div>
                   <div className={classes["cater-service__img-container"]}>
-                    <Image src={fajitas} alt="" />
+                    <Image src={fajitas} alt="fajitas" unoptimized />
                   </div>
                 </div>
                 <div className={classes["cater-service"]}>
@@ -113,7 +116,7 @@ const FaqPage: React.FC = () => {
                     </p>
                   </div>
                   <div className={classes["cater-service__img-container"]}>
-                    <Image src={enchildas} alt="" />
+                    <Image src={enchildas} alt="enchiladas" unoptimized />
                   </div>
                 </div>
               </div>

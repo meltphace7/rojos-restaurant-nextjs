@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react';
+
 import Head from 'next/head'
 import { Inter } from 'next/font/google'
 import classes from '@/styles/Home.module.css'

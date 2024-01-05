@@ -28,6 +28,7 @@ const OverlayText: React.FC = () => {
         src={burrito}
         alt="Delicious Burrito!"
         style={{ transform: `translateY(${240 - offsetY * 0.05}px)` }}
+        unoptimized
       />
     </section>
   );
